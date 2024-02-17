@@ -7,7 +7,7 @@ import joblib
 
 
 # Load the trained model
-model = joblib.load("/Users/mac/Desktop/End to end project/best_model_one.pkl")
+model = joblib.load("best_model_one.pkl")
 # Define the app title and layout
 st.title("VERSICOLOR FLOWER SPECIES PREDICTOR ")
 st.write ("This application analyses  whether flower features  entered are of species veriscolor or not")
