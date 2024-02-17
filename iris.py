@@ -10,6 +10,7 @@ import joblib
 model = joblib.load("/Users/mac/Desktop/End to end project/best_model_one.pkl")
 # Define the app title and layout
 st.title("VERSICOLOR FLOWER SPECIES PREDICTOR ")
+st.write ("This application analyses  whether flower features  entered are of species veriscolor or not")
 
 # Define input fields for features
 sepal_length = st.number_input("sepal_length ", min_value=0.00, max_value=20.00, value=10.0, step=0.1)
